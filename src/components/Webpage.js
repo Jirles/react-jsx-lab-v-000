@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { RegistrationForm } from "./RegistrationForm";
 import { FillerText } from "./FillerText";
 
-export class Webpage extends React.Component {
+export default class Webpage extends React.Component {
     render(){
         return (
             <main>
